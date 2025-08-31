@@ -42,7 +42,18 @@ const Footer = () => {
                 {/* <p> Github</p> */}
               </a>
             </div>
-          </div> 
+            <div>
+            <a
+                  className="bg-white p-4 m-4 text-gray-700 flex items-center gap-1 text-[1rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+                  href="https://thecoderstrade.in/"
+                  target="_blank"
+                >
+                < img src="/assets/coderstrade.png" className="h-5 w-5"   />
+                {/* <p> Github</p> */}
+              </a>
+            </div>
+          </div>
+       
 
         <p className="text-white-500">© 2003 Sameep Chaurasia. All rights reserved.</p>
       </footer>

@@ -32,15 +32,26 @@ const About = () => {
       <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
-            <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
+            <img src="assets/grid1.jpg" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
               <p className="grid-headtext">Hi, I’m Sameep Chaurasia</p>
               <p className="grid-subtext">
-                With 2+ years of development experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.
+               Hi, I’m Sameep Chaurasia 👋<br/><br/>
+
+              I’m a Full-Stack Developer in the making, passionate about learning and building scalable, real-time applications that create seamless user experiences.<br/><br/>
+
+              I’m also the Building <p className='font-bold text-white'>TheCodersTrade.in</p><br/>
+              <a className="font-serif font-semibold text-xl group text-black bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/100" href="https://thecoderstrade.in" target="_blank" rel="noreferrer">
+                <p> Visit <p className='underline'>thecoderstrade.in ↗</p> </p>
+              </a><br/>
+               — A platform that delivers real-time market insights, stock data, and analytics to help investors make smarter decisions.<br/>
+               I enjoy exploring new technologies, experimenting with projects, and learning by building. From frontends that engage users to backends that scale, I’m continuously improving my skills in development, DevOps, and real-time systems.<br/><br/>
+
+              🌟 My Goal: Keep growing as a Full-Stack / Cloud-Native Engineer, contribute to impactful projects, and scale TheCodersTrade.in into a leading fintech and analytics platform.<br/>
+
               </p>
-              
+               
             </div>
           </div>
         </div>
@@ -54,15 +65,18 @@ const About = () => {
               <p className="grid-subtext">
                 I specialize in a variety of languages, frameworks, and tools that allow me to build robust and scalable
                 applications<br/>
-                <p className="grid-headtext"> Language - </p>C++ , Javascript<br/>
-                <p className="grid-headtext">Technologies and Tools - </p>Dynamic HTML, Tailwind, Typescript, React, NextJs, NodeJs, Express, ThreeJs
-                MongoDB, Docker, Postgres, Prisma,Git/Github, Linux
-              </p>
+                <p className="grid-headtext">Languages:</p> C++, JavaScript, TypeScript, Python<br/>
+                <p className="grid-headtext">Frontend:</p> Dynamic HTML, TailwindCSS, React.js, Next.js, WebRTC<br/>
+                <p className="grid-headtext">Backend:</p> Node.js, Express.js, Prisma, REST APIs, MongoDB, PostgreSQL<br/>
+                <p className="grid-headtext">Cloud & DevOps:</p> Docker, Kubernetes, Linux, Git/GitHub<br/>
+                <p className="grid-headtext">Systems & Automation:</p> Kafka, Zapier<br/>
+                <p className="grid-headtext">Problem Solving:</p> Strong foundation in Data Structures & Algorithms (C++)
+                </p>
             </div>
           </div>
         </div>
 
-        <div className="col-span-1 xl:row-span-4">
+        <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
             <div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
               <Globe
@@ -107,13 +121,13 @@ const About = () => {
               </a>
               <a
                 className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/100"
-                href="/assets/SameepResumeFinal.pdf"
+                href="/assets/Sameep01_Resume.pdf"
                 download
                 >
                   Download Resume{" "}
                 <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
               </a>
-              
+
             </div>
           </div>
         </div>
@@ -125,14 +139,21 @@ const About = () => {
             <div>
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
-                I love solving problems and building things through code. Programming isn&apos;t just my
-                profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
+                Coding, for me, is not just a technical skill but a passion that has shaped the way I think, learn, and create. What started as a simple curiosity about how software works quickly turned into a deep interest in building things from scratch, solving problems, and continuously improving myself as a developer. Over time, I’ve realized that coding is much more than writing instructions for a machine — it’s about bringing ideas to life, finding creative solutions to challenges, and making an impact through technology.<br/>
+
+                One of the things I love most about coding is the process of problem-solving. Every new challenge is like a puzzle, and finding the most efficient, elegant solution gives me a sense of achievement. My strong foundation in data structures and algorithms has taught me how to approach problems logically and optimize solutions, while my experience with modern technologies allows me to translate those solutions into real-world applications.<br/>
+
+                I’m equally fascinated by the creative side of coding. Designing user-friendly frontends with React and TailwindCSS, developing scalable backends with Node.js and databases like PostgreSQL or MongoDB, and exploring automation and cloud technologies like Docker and Kubernetes — all of these excite me because they allow me to build systems that are not only functional but also meaningful.<br/>
+
+                What drives me most is the fact that coding is an endless journey of learning. Technology keeps evolving, and I enjoy keeping pace with it — experimenting with new frameworks, reading about advancements, and applying them to projects. For me, every project is not just a task but an opportunity to learn something new, to innovate, and to push my boundaries.<br/>
+
+                Coding is not just my career path; it is a passion that motivates me to create, explore, and contribute to the world of technology
               </p>
             </div>
           </div>
         </div>
 
-        <div className="xl:col-span-1 xl:row-span-2">
+        <div className="xl:col-span-1 xl:row-span-3">
           <div className="grid-container">
             <img
               src="assets/grid4.png"
