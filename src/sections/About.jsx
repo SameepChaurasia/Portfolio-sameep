@@ -10,7 +10,7 @@ const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy1 = () => {
-    navigator.clipboard.writeText(' 8887011889');
+    navigator.clipboard.writeText(' 88870XXXXX');
     setHasCopied(true);
 
     setTimeout(() => {
@@ -166,7 +166,7 @@ const About = () => {
 
               <div className="copy-container" onClick={handleCopy1}>
                 <img src={hasCopied ? 'assets/tick.svg' : 'assets/copy.svg'} alt="copy" />
-                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">Phone no. - 8887011889</p>
+                <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">Phone no. - 88870XXXXX</p>
               </div>
 
               <div className="copy-container" onClick={handleCopy}>
