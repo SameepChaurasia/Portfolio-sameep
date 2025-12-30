@@ -32,7 +32,7 @@ const Hero = () => {
       </div>
 
       <div className="w-full h-full absolute inset-0">
-        <Canvas className="w-full h-full">
+        <Canvas id="hero-canvas" className="w-full h-full" onCreated={(state) => console.log('r3f created', state)}>
           <Suspense fallback={<CanvasLoader />}>
             {/* To hide controller */}
             <Leva hidden />
